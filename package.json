@@ -1,0 +1,35 @@
+{
+  "name": "speckerchecker",
+  "version": "0.0.0",
+  "description": "compare src tree to spec tree to find missing spec files",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sequoia/speckerchecker.git"
+  },
+  "keywords": [
+    "istanbul",
+    "karma",
+    "test",
+    "spec",
+    "tdd",
+    "bdd",
+    "coverage"
+  ],
+  "author": "Sequoia",
+  "license": "GPL3",
+  "bugs": {
+    "url": "https://github.com/Sequoia/speckerchecker/issues"
+  },
+  "dependencies": {
+    "fs-tools": "~0.2.11",
+    "read-package-json": "~1.2.7"
+  },
+  "devDependencies": {
+    "minimist": "~1.1.0",
+    "commander": "~2.6.0"
+  }
+}
