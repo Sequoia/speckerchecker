@@ -1,6 +1,6 @@
 {
   "name": "speckerchecker",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "compare src tree to spec tree to find missing spec files",
   "main": "index.js",
   "scripts": {
